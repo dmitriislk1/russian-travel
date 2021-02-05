@@ -1,0 +1,31 @@
+.cover__background{
+    background-image: url(../../../images/trains.jpg);
+    object-fit: cover;
+    background-size: cover;
+    width:100%;
+    padding: 33px 0;
+    margin-bottom: 64px;
+}
+@media screen and (min-width:768px){
+    .cover__background{
+        padding: 115px 0;
+        margin-bottom: 88px;
+    }
+}
+@media screen and (min-width:1024px){
+    .cover__background{
+        padding: 195px 0;
+        margin-bottom: 92px;
+    }
+}
+@media screen and (min-width:1280px){
+    .cover__background{
+        padding: 245px 0;
+        max-width: 1184px;
+        margin:auto;
+        margin-bottom: 92px;
+    }
+}
+.cover__background:hover{
+    opacity: 0.8;
+}
