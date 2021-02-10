@@ -1,0 +1,10 @@
+.cover__opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+}
+.cover__opacity:hover{
+    opacity: 0.2;
+}   
