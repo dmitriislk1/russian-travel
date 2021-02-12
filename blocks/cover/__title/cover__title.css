@@ -1,6 +1,6 @@
 .cover__title{
     width:90%;
-    margin: 33px auto 16px auto;
+    margin: 0 auto;
     text-align: center;
     font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
@@ -8,23 +8,14 @@
     font-size: 32px;
     line-height: 35px;
     z-index: 1;
+    margin-bottom: 16px;
 }
 @media screen and (min-width:768px){
     .cover__title{
         width:560px;
         font-size: 72px;
         line-height: 76px;
-        margin: 115px auto 32px auto;
-    }
-}
-@media screen and (min-width:1024px){
-    .cover__title{
-        margin-top: 195px;
-    }
-}
-@media screen and (min-width:1280px){
-    .cover__title{
-       margin-top: 245px;
+        margin-bottom: 32px;
     }
 }
 
